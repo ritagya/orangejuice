@@ -1,0 +1,93 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*Navigation*/
+nav {
+	height: 9%;
+    background-color: #F87F00;
+    padding-top: 8px;
+}
+nav ul{
+	float: right;
+}
+nav li{
+	display: inline-block;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Poiret One', cursive;
+	font-size: 15px;
+    vertical-align: middle;
+    padding-right: 40px;
+}
+nav img{
+	padding-left: 40px;
+}
+/*Search bar*/
+form{
+	float: right;
+	background-color: #F0F0F0;
+	margin-top: 5px;
+    margin-right: 40px;
+    padding: 15px;
+}
+form input{
+	border: none;
+	color: grey;
+	background-color: #F0F0F0;
+	font-size: 12px;
+}
+form .fa-search{
+	color: grey;
+}
+/*Main section*/
+section{
+	display: inline-block;
+	height: 81%;
+}
+section div {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 85px;
+    padding-left: 140px;
+}
+h1{
+	font-family: 'Poiret One', cursive;
+	color: #F87F00;
+	font-size: 30px;
+}
+h1 span{
+	color: #79CCC8;
+	font-weight: bolder;
+}
+section button{
+	padding:10px 40px;
+	margin: 15px 0;
+	border: none;
+	background-color: #FE7E00;
+	border-radius: 2px; 
+}
+button:last-child{
+	padding: 10px 20px;
+	color: #fff;
+	margin: 15px 0 15px 10px;
+	border: none;
+	background-color: #7ACCC8;
+	border-radius: 2px;
+}
+button a{
+	font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+/*Footer*/
+footer{
+	background-color: #7ACCC8;
+	height: 9%;
+}
